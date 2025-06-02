@@ -230,7 +230,7 @@ public class GConstants extends DefaultHandler {
 			for (int i = 0; i < node.getChildNodes().getLength(); i++) {
 				try {
 					Node element = node.getChildNodes().item(i);
-						if (element.getNodeType() == Node.ELEMENT_NODE) {
+					if (element.getNodeType() == Node.ELEMENT_NODE) {
 						EEditMenuItem eEditMenuItem = EEditMenuItem.valueOf(element.getNodeName());
 						eEditMenuItem.label = element.getAttributes().getNamedItem("label").getNodeValue();
 						eEditMenuItem.toolTipText = element.getAttributes().getNamedItem("toolTipText").getNodeValue();
