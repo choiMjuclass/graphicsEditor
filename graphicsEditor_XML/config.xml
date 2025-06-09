@@ -7,7 +7,7 @@
 		<eGraphicsMenu label = "그래픽속성"/>
 	</EMenu>
 	<EFileMenuItem  defaultPathName = "c:\\Users\\chois\\OneDrive\\programming\\classess\\classes-201801" >
-		<eNew label = "new" toolTipText = "새로운 파일을 생성" /> 
+		<eNew label = "새로 만들기" toolTipText = "새로운 파일을 생성" /> 
 		<eOpen label = "열기" toolTipText = "새로운 파일을 생성" />
 		<eSave label = "저장" toolTipText = "새로운 파일을 생성" />
 		<eSaveAs label = "다른이름으로" toolTipText = "새로운 파일을 생성" />
